@@ -1,0 +1,110 @@
+{
+  "users": [
+    {
+      "id": "default-user",
+      "name": "Amritesh",
+      "age": 18,
+      "sex": "male",
+      "height": 183,
+      "weight": 85,
+      "goalWeight": 75,
+      "activityLevel": "lightly_active",
+      "rateOfLoss": 0.75,
+      "maintenanceCalories": 2754,
+      "calorieTarget": 1876,
+      "proteinTarget": 90,
+      "manualOverride": true
+    }
+  ],
+  "weightLogs": [
+    {
+      "id": 1,
+      "userId": "default-user",
+      "date": "2026-06-04",
+      "weight": 85.4
+    },
+    {
+      "id": 2,
+      "userId": "default-user",
+      "date": "2026-06-05",
+      "weight": 85.1
+    },
+    {
+      "id": 3,
+      "userId": "default-user",
+      "date": "2026-06-06",
+      "weight": 85.3
+    },
+    {
+      "id": 4,
+      "userId": "default-user",
+      "date": "2026-06-07",
+      "weight": 84.9
+    },
+    {
+      "id": 5,
+      "userId": "default-user",
+      "date": "2026-06-08",
+      "weight": 84.8
+    },
+    {
+      "id": 6,
+      "userId": "default-user",
+      "date": "2026-06-09",
+      "weight": 85
+    },
+    {
+      "id": 7,
+      "userId": "default-user",
+      "date": "2026-06-10",
+      "weight": 84.6
+    },
+    {
+      "id": 8,
+      "userId": "default-user",
+      "date": "2026-06-11",
+      "weight": 84.5
+    },
+    {
+      "id": 9,
+      "userId": "default-user",
+      "date": "2026-06-12",
+      "weight": 84.2
+    },
+    {
+      "id": 10,
+      "userId": "default-user",
+      "date": "2026-06-13",
+      "weight": 84.1
+    }
+  ],
+  "foodLogs": [
+    {
+      "id": 1,
+      "userId": "default-user",
+      "date": "2026-06-12",
+      "description": "3 eggs and 2 toast",
+      "calories": 450,
+      "protein": 24,
+      "carbs": 30,
+      "fat": 18,
+      "confidence": 0.9
+    },
+    {
+      "id": 2,
+      "userId": "default-user",
+      "date": "2026-06-12",
+      "description": "Chicken breast with brown rice",
+      "calories": 650,
+      "protein": 48,
+      "carbs": 50,
+      "fat": 10,
+      "confidence": 0.95
+    }
+  ],
+  "llmConfig": {
+    "provider": "gemini",
+    "endpoint": "https://api.openai.com/v1",
+    "model": "default"
+  }
+}

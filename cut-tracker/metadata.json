@@ -1,0 +1,6 @@
+{
+  "name": "Cut Tracker",
+  "description": "A full-stack personal weight loss, deficit tracker, and calorie tracking app supporting local LLMs or Gemini.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
